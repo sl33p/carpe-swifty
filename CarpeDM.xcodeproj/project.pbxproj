@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCFB3FB19D57223004BE17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB3FA19D57223004BE17C /* AppDelegate.swift */; };
+		7CCFB3FE19D57223004BE17C /* CarpeDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB3FC19D57223004BE17C /* CarpeDM.xcdatamodeld */; };
+		7CCFB40019D57223004BE17C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB3FF19D57223004BE17C /* MasterViewController.swift */; };
+		7CCFB40219D57223004BE17C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB40119D57223004BE17C /* DetailViewController.swift */; };
+		7CCFB40519D57224004BE17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB40319D57224004BE17C /* Main.storyboard */; };
+		7CCFB40719D57224004BE17C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB40619D57224004BE17C /* Images.xcassets */; };
+		7CCFB40A19D57224004BE17C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB40819D57224004BE17C /* LaunchScreen.xib */; };
+		7CCFB41619D57224004BE17C /* CarpeDMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB41519D57224004BE17C /* CarpeDMTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCFB41019D57224004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB3ED19D57223004BE17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCFB3F419D57223004BE17C;
+			remoteInfo = CarpeDM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CCFB3F519D57223004BE17C /* CarpeDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarpeDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCFB3F919D57223004BE17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCFB3FA19D57223004BE17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CCFB3FD19D57223004BE17C /* CarpeDM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarpeDM.xcdatamodel; sourceTree = "<group>"; };
+		7CCFB3FF19D57223004BE17C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		7CCFB40119D57223004BE17C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7CCFB40419D57224004BE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCFB40619D57224004BE17C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CCFB40919D57224004BE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CCFB40F19D57224004BE17C /* CarpeDMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpeDMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCFB41419D57224004BE17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCFB41519D57224004BE17C /* CarpeDMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpeDMTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCFB3F219D57223004BE17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCFB40C19D57224004BE17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCFB3EC19D57223004BE17C = {
+			isa = PBXGroup;
+			children = (
+				7CCFB3F719D57223004BE17C /* CarpeDM */,
+				7CCFB41219D57224004BE17C /* CarpeDMTests */,
+				7CCFB3F619D57223004BE17C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCFB3F619D57223004BE17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB3F519D57223004BE17C /* CarpeDM.app */,
+				7CCFB40F19D57224004BE17C /* CarpeDMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCFB3F719D57223004BE17C /* CarpeDM */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB3FA19D57223004BE17C /* AppDelegate.swift */,
+				7CCFB3FF19D57223004BE17C /* MasterViewController.swift */,
+				7CCFB40119D57223004BE17C /* DetailViewController.swift */,
+				7CCFB40319D57224004BE17C /* Main.storyboard */,
+				7CCFB40619D57224004BE17C /* Images.xcassets */,
+				7CCFB40819D57224004BE17C /* LaunchScreen.xib */,
+				7CCFB3FC19D57223004BE17C /* CarpeDM.xcdatamodeld */,
+				7CCFB3F819D57223004BE17C /* Supporting Files */,
+			);
+			path = CarpeDM;
+			sourceTree = "<group>";
+		};
+		7CCFB3F819D57223004BE17C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB3F919D57223004BE17C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CCFB41219D57224004BE17C /* CarpeDMTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB41519D57224004BE17C /* CarpeDMTests.swift */,
+				7CCFB41319D57224004BE17C /* Supporting Files */,
+			);
+			path = CarpeDMTests;
+			sourceTree = "<group>";
+		};
+		7CCFB41319D57224004BE17C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB41419D57224004BE17C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCFB3F419D57223004BE17C /* CarpeDM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCFB41919D57224004BE17C /* Build configuration list for PBXNativeTarget "CarpeDM" */;
+			buildPhases = (
+				7CCFB3F119D57223004BE17C /* Sources */,
+				7CCFB3F219D57223004BE17C /* Frameworks */,
+				7CCFB3F319D57223004BE17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarpeDM;
+			productName = CarpeDM;
+			productReference = 7CCFB3F519D57223004BE17C /* CarpeDM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCFB40E19D57224004BE17C /* CarpeDMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCFB41C19D57224004BE17C /* Build configuration list for PBXNativeTarget "CarpeDMTests" */;
+			buildPhases = (
+				7CCFB40B19D57224004BE17C /* Sources */,
+				7CCFB40C19D57224004BE17C /* Frameworks */,
+				7CCFB40D19D57224004BE17C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCFB41119D57224004BE17C /* PBXTargetDependency */,
+			);
+			name = CarpeDMTests;
+			productName = CarpeDMTests;
+			productReference = 7CCFB40F19D57224004BE17C /* CarpeDMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCFB3ED19D57223004BE17C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Rumble Labs";
+				TargetAttributes = {
+					7CCFB3F419D57223004BE17C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7CCFB40E19D57224004BE17C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7CCFB3F419D57223004BE17C;
+					};
+				};
+			};
+			buildConfigurationList = 7CCFB3F019D57223004BE17C /* Build configuration list for PBXProject "CarpeDM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCFB3EC19D57223004BE17C;
+			productRefGroup = 7CCFB3F619D57223004BE17C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCFB3F419D57223004BE17C /* CarpeDM */,
+				7CCFB40E19D57224004BE17C /* CarpeDMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCFB3F319D57223004BE17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCFB40519D57224004BE17C /* Main.storyboard in Resources */,
+				7CCFB40A19D57224004BE17C /* LaunchScreen.xib in Resources */,
+				7CCFB40719D57224004BE17C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCFB40D19D57224004BE17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCFB3F119D57223004BE17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCFB3FE19D57223004BE17C /* CarpeDM.xcdatamodeld in Sources */,
+				7CCFB3FB19D57223004BE17C /* AppDelegate.swift in Sources */,
+				7CCFB40019D57223004BE17C /* MasterViewController.swift in Sources */,
+				7CCFB40219D57223004BE17C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCFB40B19D57224004BE17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCFB41619D57224004BE17C /* CarpeDMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCFB41119D57224004BE17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCFB3F419D57223004BE17C /* CarpeDM */;
+			targetProxy = 7CCFB41019D57224004BE17C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CCFB40319D57224004BE17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCFB40419D57224004BE17C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCFB40819D57224004BE17C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCFB40919D57224004BE17C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCFB41719D57224004BE17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCFB41819D57224004BE17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCFB41A19D57224004BE17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarpeDM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CCFB41B19D57224004BE17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarpeDM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CCFB41D19D57224004BE17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarpeDMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarpeDM.app/CarpeDM";
+			};
+			name = Debug;
+		};
+		7CCFB41E19D57224004BE17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarpeDMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarpeDM.app/CarpeDM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCFB3F019D57223004BE17C /* Build configuration list for PBXProject "CarpeDM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCFB41719D57224004BE17C /* Debug */,
+				7CCFB41819D57224004BE17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCFB41919D57224004BE17C /* Build configuration list for PBXNativeTarget "CarpeDM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCFB41A19D57224004BE17C /* Debug */,
+				7CCFB41B19D57224004BE17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CCFB41C19D57224004BE17C /* Build configuration list for PBXNativeTarget "CarpeDMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCFB41D19D57224004BE17C /* Debug */,
+				7CCFB41E19D57224004BE17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CCFB3FC19D57223004BE17C /* CarpeDM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CCFB3FD19D57223004BE17C /* CarpeDM.xcdatamodel */,
+			);
+			currentVersion = 7CCFB3FD19D57223004BE17C /* CarpeDM.xcdatamodel */;
+			path = CarpeDM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CCFB3ED19D57223004BE17C /* Project object */;
+}
