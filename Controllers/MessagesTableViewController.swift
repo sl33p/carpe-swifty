@@ -20,16 +20,12 @@ class MessagesTableViewController: UITableViewController {
   
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated);
-
-//    self.fetchMessages()
     
-    let isAuthenticated = CarpeDM.hasStoredAccount()
+    self.setupView()
+    
+    let isAuthenticated = User.primary() != nil
     if (isAuthenticated == false) {
-      self.setupViewForAccount(nil)
       self.showAuthenication();
-    }
-    else {
-      self.onSelectedAccount(CarpeDM.getStoredAccount()!)
     }
   }
   
@@ -38,37 +34,26 @@ class MessagesTableViewController: UITableViewController {
   func showAuthenication() {
     let sb : UIStoryboard  = UIStoryboard(name: "Main", bundle: nil)
     var authController : AuthenticationViewController = sb.instantiateViewControllerWithIdentifier("AuthenticationViewController") as AuthenticationViewController
-    authController.authenticationHandler = { (account: ACAccount, error: NSError!) -> Void in
-      CarpeDM.storeAccountIdentifier(account.identifier)
-      self.onSelectedAccount(account)
+    authController.authenticationHandler = { (user: User, error: NSError!) -> Void in
+      self.setupView()
       self.dismissViewControllerAnimated(true, completion: nil)
     }
     self.presentViewController(authController, animated: true) {}
   }
   
-  // MARK: - Setup for account
+  // MARK: - Setup
   
-  func onSelectedAccount(account : ACAccount) {
-    self.setupViewForAccount(account)
-//    self.loadDMsForAccount(account)
-    self.fetchMessages()
-  }
-  
-  func setupViewForAccount(account : ACAccount?) {
-    self.navigationItem.leftBarButtonItem?.enabled = account != nil
-    if (account == nil) {
-      self.title = ""
-      return
-    }
-    let username = account!.username
-    self.title = "@\(username)"
+  func setupView() {
+    let primaryUser : User? = User.primary()
+    self.navigationItem.leftBarButtonItem?.enabled = primaryUser != nil
+    self.title = primaryUser != nil ? primaryUser?.screenName : "DM"
   }
   
   func fetchMessages() {
     CarpeDM.getDirectMessagesWithResponseHandler { (messages, error) -> Void in
       
       if (error != nil) {
-        self.setupViewForAccount(nil)
+        self.setupView()
         self.showAuthenication();
       }
       else {
@@ -87,7 +72,7 @@ class MessagesTableViewController: UITableViewController {
   // MARK: - Actions
   
   @IBAction func logoutAction() {
-    self.setupViewForAccount(nil)
+    self.setupView()
     CarpeDM.clearStoredAccount()
     self.showAuthenication()
   }

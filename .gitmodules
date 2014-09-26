@@ -3,4 +3,4 @@
 	url = git@github.com:championofblocks/Swifter.git
 [submodule "MagicalRecord"]
 	path = MagicalRecord
-	url = git@github.com:magicalpanda/MagicalRecord.git
+	url = git@github.com:championofblocks/MagicalRecord.git

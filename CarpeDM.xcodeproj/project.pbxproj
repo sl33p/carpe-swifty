@@ -52,6 +52,7 @@
 		7CCFB4CA19D5831D004BE17C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4C919D5831D004BE17C /* Message.swift */; };
 		7CCFB4CC19D5831D004BE17C /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4CB19D5831D004BE17C /* Conversation.swift */; };
 		7CCFB4CE19D5831E004BE17C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4CD19D5831E004BE17C /* User.swift */; };
+		7CCFB4D019D5A4D4004BE17C /* User+CarpeDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4CF19D5A4D4004BE17C /* User+CarpeDM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +200,7 @@
 		7CCFB4C919D5831D004BE17C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7CCFB4CB19D5831D004BE17C /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		7CCFB4CD19D5831E004BE17C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CCFB4CF19D5A4D4004BE17C /* User+CarpeDM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CarpeDM.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 				7CCFB4CD19D5831E004BE17C /* User.swift */,
 				7CCFB4CB19D5831D004BE17C /* Conversation.swift */,
 				7CCFB4C919D5831D004BE17C /* Message.swift */,
+				7CCFB4CF19D5A4D4004BE17C /* User+CarpeDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -617,6 +620,7 @@
 				7CCFB4B419D57E29004BE17C /* NSString+MagicalDataImport.m in Sources */,
 				7CCFB4B019D57E29004BE17C /* NSEntityDescription+MagicalDataImport.m in Sources */,
 				7CCFB4CA19D5831D004BE17C /* Message.swift in Sources */,
+				7CCFB4D019D5A4D4004BE17C /* User+CarpeDM.swift in Sources */,
 				7CCFB4C119D57E29004BE17C /* MagicalRecord+Actions.m in Sources */,
 				7CCFB4B919D57E29004BE17C /* NSManagedObject+MagicalRequests.m in Sources */,
 				7CCFB4BC19D57E29004BE17C /* NSManagedObjectContext+MagicalSaves.m in Sources */,

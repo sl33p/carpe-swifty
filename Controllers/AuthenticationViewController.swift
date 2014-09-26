@@ -10,7 +10,7 @@ import UIKit
 import SwifteriOS
 import Accounts
 
-typealias MyAuthenticationResponseHandler = (ACAccount, NSError!) -> Void
+typealias AuthenticationViewControllerResponseHandler = (User, NSError!) -> Void
 
 class AuthenticationViewController: UIViewController {
   
@@ -18,12 +18,13 @@ class AuthenticationViewController: UIViewController {
   @IBOutlet weak var spinner: UIActivityIndicatorView!
   private var twitterAccountsDiscovered : Array<ACAccount>!
   
-  var authenticationHandler: MyAuthenticationResponseHandler?
+  var authenticationHandler: AuthenticationViewControllerResponseHandler?
 
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
     self.toggleSpinnerOn(false)
     CarpeDM.clearAccessToken()
+    User.clearPrimary()
   }
   
   @IBAction func authenticate() {
@@ -51,25 +52,18 @@ class AuthenticationViewController: UIViewController {
     })
   }
   
-  func onSuccessfulAuthorisation(account: ACAccount) {
-    self.showBasicAlert("Success", message: "Authenticated Twitter profile!", spinnerToggleFlag: false)
-    if (self.authenticationHandler != nil) {
-      self.authenticationHandler!(account, nil)
-    }
-  }
-  
-  func onUnsuccessfulAuthorisation(error: NSError!) {
-    self.showBasicAlert("Error", message: "Error authenticating Twitter profile. Please try again\n\n\(error.localizedDescription)", spinnerToggleFlag: false)
-  }
-  
   func accountSelected(account: ACAccount) {
     
     let success = CarpeDM.authoriseWithResponseHandler { (error) -> Void in
       if (error == nil) {
-        self.onSuccessfulAuthorisation(account)
+        self.showBasicAlert("Success", message: "Authenticated Twitter profile!", spinnerToggleFlag: false)
+        if (self.authenticationHandler != nil) {
+          let user : User = User.checkUserOrCreateWithAccountIdentifier(account.identifier)
+          self.authenticationHandler!(user, nil)
+        }
       }
       else {
-        self.onUnsuccessfulAuthorisation(error)
+        self.showBasicAlert("Error", message: "Error authenticating Twitter profile. Please try again\n\n\(error.localizedDescription)", spinnerToggleFlag: false)
       }
     }
   }
