@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CCFB3FB19D57223004BE17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB3FA19D57223004BE17C /* AppDelegate.swift */; };
-		7CCFB3FE19D57223004BE17C /* CarpeDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB3FC19D57223004BE17C /* CarpeDM.xcdatamodeld */; };
-		7CCFB40019D57223004BE17C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB3FF19D57223004BE17C /* MasterViewController.swift */; };
-		7CCFB40219D57223004BE17C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB40119D57223004BE17C /* DetailViewController.swift */; };
-		7CCFB40519D57224004BE17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB40319D57224004BE17C /* Main.storyboard */; };
-		7CCFB40719D57224004BE17C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB40619D57224004BE17C /* Images.xcassets */; };
-		7CCFB40A19D57224004BE17C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB40819D57224004BE17C /* LaunchScreen.xib */; };
 		7CCFB41619D57224004BE17C /* CarpeDMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB41519D57224004BE17C /* CarpeDMTests.swift */; };
+		7CCFB43319D573A3004BE17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB42319D573A3004BE17C /* AppDelegate.swift */; };
+		7CCFB43419D573A3004BE17C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB42519D573A3004BE17C /* DetailViewController.swift */; };
+		7CCFB43519D573A3004BE17C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB42619D573A3004BE17C /* MasterViewController.swift */; };
+		7CCFB43619D573A3004BE17C /* CarpeDM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB42819D573A3004BE17C /* CarpeDM.xcdatamodeld */; };
+		7CCFB43719D573A3004BE17C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB42B19D573A3004BE17C /* Images.xcassets */; };
+		7CCFB43819D573A3004BE17C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB42D19D573A3004BE17C /* LaunchScreen.xib */; };
+		7CCFB43919D573A3004BE17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB42F19D573A3004BE17C /* Main.storyboard */; };
+		7CCFB43A19D573A3004BE17C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB43219D573A3004BE17C /* Info.plist */; };
+		7CCFB45019D574A7004BE17C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB44E19D574A7004BE17C /* AuthenticationViewController.swift */; };
+		7CCFB45119D574A7004BE17C /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB44F19D574A7004BE17C /* MessagesTableViewController.swift */; };
+		7CCFB45319D574B3004BE17C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45219D574B3004BE17C /* User.swift */; };
+		7CCFB45519D574BC004BE17C /* CarpeDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45419D574BC004BE17C /* CarpeDM.swift */; };
+		7CCFB45719D574C8004BE17C /* AddAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45619D574C8004BE17C /* AddAccountButton.swift */; };
+		7CCFB45819D57501004BE17C /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCFB44619D573A9004BE17C /* SwifteriOS.framework */; };
+		7CCFB45919D57501004BE17C /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCFB44619D573A9004BE17C /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7CCFB45E19D57598004BE17C /* CarpeCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45D19D57598004BE17C /* CarpeCoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,21 +34,84 @@
 			remoteGlobalIDString = 7CCFB3F419D57223004BE17C;
 			remoteInfo = CarpeDM;
 		};
+		7CCFB44319D573A9004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		7CCFB44519D573A9004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		7CCFB44719D573A9004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		7CCFB44919D573A9004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		7CCFB44B19D573A9004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C5A1944AECB00993175;
+			remoteInfo = SwifterDemoMacTests;
+		};
+		7CCFB45A19D57501004BE17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CCFB45C19D57501004BE17C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7CCFB45919D57501004BE17C /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7CCFB3F519D57223004BE17C /* CarpeDM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarpeDM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CCFB3F919D57223004BE17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CCFB3FA19D57223004BE17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CCFB3FD19D57223004BE17C /* CarpeDM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarpeDM.xcdatamodel; sourceTree = "<group>"; };
-		7CCFB3FF19D57223004BE17C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		7CCFB40119D57223004BE17C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		7CCFB40419D57224004BE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CCFB40619D57224004BE17C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7CCFB40919D57224004BE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7CCFB40F19D57224004BE17C /* CarpeDMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpeDMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCFB41419D57224004BE17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CCFB41519D57224004BE17C /* CarpeDMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpeDMTests.swift; sourceTree = "<group>"; };
+		7CCFB42319D573A3004BE17C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CCFB42519D573A3004BE17C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7CCFB42619D573A3004BE17C /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		7CCFB42919D573A3004BE17C /* CarpeDM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarpeDM.xcdatamodel; sourceTree = "<group>"; };
+		7CCFB42B19D573A3004BE17C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CCFB42E19D573A3004BE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CCFB43019D573A3004BE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCFB43219D573A3004BE17C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		7CCFB44E19D574A7004BE17C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		7CCFB44F19D574A7004BE17C /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		7CCFB45219D574B3004BE17C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7CCFB45419D574BC004BE17C /* CarpeDM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarpeDM.swift; sourceTree = "<group>"; };
+		7CCFB45619D574C8004BE17C /* AddAccountButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountButton.swift; sourceTree = "<group>"; };
+		7CCFB45D19D57598004BE17C /* CarpeCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarpeCoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCFB45819D57501004BE17C /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +136,14 @@
 		7CCFB3EC19D57223004BE17C = {
 			isa = PBXGroup;
 			children = (
-				7CCFB3F719D57223004BE17C /* CarpeDM */,
+				7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */,
+				7CCFB42219D573A3004BE17C /* AppDelegate */,
+				7CCFB42419D573A3004BE17C /* Controllers */,
+				7CCFB42719D573A3004BE17C /* Model */,
+				7CCFB42A19D573A3004BE17C /* Resources */,
+				7CCFB42C19D573A3004BE17C /* Storyboards */,
+				7CCFB43119D573A3004BE17C /* SupportingFiles */,
+				7CCFB44D19D57498004BE17C /* Views */,
 				7CCFB41219D57224004BE17C /* CarpeDMTests */,
 				7CCFB3F619D57223004BE17C /* Products */,
 			);
@@ -76,29 +156,6 @@
 				7CCFB40F19D57224004BE17C /* CarpeDMTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7CCFB3F719D57223004BE17C /* CarpeDM */ = {
-			isa = PBXGroup;
-			children = (
-				7CCFB3FA19D57223004BE17C /* AppDelegate.swift */,
-				7CCFB3FF19D57223004BE17C /* MasterViewController.swift */,
-				7CCFB40119D57223004BE17C /* DetailViewController.swift */,
-				7CCFB40319D57224004BE17C /* Main.storyboard */,
-				7CCFB40619D57224004BE17C /* Images.xcassets */,
-				7CCFB40819D57224004BE17C /* LaunchScreen.xib */,
-				7CCFB3FC19D57223004BE17C /* CarpeDM.xcdatamodeld */,
-				7CCFB3F819D57223004BE17C /* Supporting Files */,
-			);
-			path = CarpeDM;
-			sourceTree = "<group>";
-		};
-		7CCFB3F819D57223004BE17C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7CCFB3F919D57223004BE17C /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7CCFB41219D57224004BE17C /* CarpeDMTests */ = {
@@ -118,6 +175,82 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7CCFB42219D573A3004BE17C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB42319D573A3004BE17C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7CCFB42419D573A3004BE17C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB45419D574BC004BE17C /* CarpeDM.swift */,
+				7CCFB42519D573A3004BE17C /* DetailViewController.swift */,
+				7CCFB42619D573A3004BE17C /* MasterViewController.swift */,
+				7CCFB44E19D574A7004BE17C /* AuthenticationViewController.swift */,
+				7CCFB44F19D574A7004BE17C /* MessagesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7CCFB42719D573A3004BE17C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB45D19D57598004BE17C /* CarpeCoreData.swift */,
+				7CCFB45219D574B3004BE17C /* User.swift */,
+				7CCFB42819D573A3004BE17C /* CarpeDM.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7CCFB42A19D573A3004BE17C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB42B19D573A3004BE17C /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CCFB42C19D573A3004BE17C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB42D19D573A3004BE17C /* LaunchScreen.xib */,
+				7CCFB42F19D573A3004BE17C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7CCFB43119D573A3004BE17C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB43219D573A3004BE17C /* Info.plist */,
+			);
+			name = SupportingFiles;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CCFB43C19D573A9004BE17C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB44419D573A9004BE17C /* SwifterDemoiOS.app */,
+				7CCFB44619D573A9004BE17C /* SwifteriOS.framework */,
+				7CCFB44819D573A9004BE17C /* SwifterMac.framework */,
+				7CCFB44A19D573A9004BE17C /* SwifterDemoMac.app */,
+				7CCFB44C19D573A9004BE17C /* SwifterDemoMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCFB44D19D57498004BE17C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CCFB45619D574C8004BE17C /* AddAccountButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,10 +261,12 @@
 				7CCFB3F119D57223004BE17C /* Sources */,
 				7CCFB3F219D57223004BE17C /* Frameworks */,
 				7CCFB3F319D57223004BE17C /* Resources */,
+				7CCFB45C19D57501004BE17C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7CCFB45B19D57501004BE17C /* PBXTargetDependency */,
 			);
 			name = CarpeDM;
 			productName = CarpeDM;
@@ -185,6 +320,12 @@
 			mainGroup = 7CCFB3EC19D57223004BE17C;
 			productRefGroup = 7CCFB3F619D57223004BE17C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7CCFB43C19D573A9004BE17C /* Products */;
+					ProjectRef = 7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7CCFB3F419D57223004BE17C /* CarpeDM */,
@@ -193,14 +334,53 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7CCFB44419D573A9004BE17C /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 7CCFB44319D573A9004BE17C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7CCFB44619D573A9004BE17C /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 7CCFB44519D573A9004BE17C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7CCFB44819D573A9004BE17C /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 7CCFB44719D573A9004BE17C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7CCFB44A19D573A9004BE17C /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 7CCFB44919D573A9004BE17C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7CCFB44C19D573A9004BE17C /* SwifterDemoMacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterDemoMacTests.xctest;
+			remoteRef = 7CCFB44B19D573A9004BE17C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7CCFB3F319D57223004BE17C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCFB40519D57224004BE17C /* Main.storyboard in Resources */,
-				7CCFB40A19D57224004BE17C /* LaunchScreen.xib in Resources */,
-				7CCFB40719D57224004BE17C /* Images.xcassets in Resources */,
+				7CCFB43A19D573A3004BE17C /* Info.plist in Resources */,
+				7CCFB43919D573A3004BE17C /* Main.storyboard in Resources */,
+				7CCFB43819D573A3004BE17C /* LaunchScreen.xib in Resources */,
+				7CCFB43719D573A3004BE17C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +398,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCFB3FE19D57223004BE17C /* CarpeDM.xcdatamodeld in Sources */,
-				7CCFB3FB19D57223004BE17C /* AppDelegate.swift in Sources */,
-				7CCFB40019D57223004BE17C /* MasterViewController.swift in Sources */,
-				7CCFB40219D57223004BE17C /* DetailViewController.swift in Sources */,
+				7CCFB45719D574C8004BE17C /* AddAccountButton.swift in Sources */,
+				7CCFB43619D573A3004BE17C /* CarpeDM.xcdatamodeld in Sources */,
+				7CCFB45119D574A7004BE17C /* MessagesTableViewController.swift in Sources */,
+				7CCFB43319D573A3004BE17C /* AppDelegate.swift in Sources */,
+				7CCFB45019D574A7004BE17C /* AuthenticationViewController.swift in Sources */,
+				7CCFB45519D574BC004BE17C /* CarpeDM.swift in Sources */,
+				7CCFB45E19D57598004BE17C /* CarpeCoreData.swift in Sources */,
+				7CCFB43419D573A3004BE17C /* DetailViewController.swift in Sources */,
+				7CCFB43519D573A3004BE17C /* MasterViewController.swift in Sources */,
+				7CCFB45319D574B3004BE17C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,23 +427,28 @@
 			target = 7CCFB3F419D57223004BE17C /* CarpeDM */;
 			targetProxy = 7CCFB41019D57224004BE17C /* PBXContainerItemProxy */;
 		};
+		7CCFB45B19D57501004BE17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 7CCFB45A19D57501004BE17C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7CCFB40319D57224004BE17C /* Main.storyboard */ = {
+		7CCFB42D19D573A3004BE17C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7CCFB40419D57224004BE17C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7CCFB40819D57224004BE17C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CCFB40919D57224004BE17C /* Base */,
+				7CCFB42E19D573A3004BE17C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7CCFB42F19D573A3004BE17C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCFB43019D573A3004BE17C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,7 +535,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CarpeDM/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,7 +546,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CarpeDM/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -425,12 +618,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7CCFB3FC19D57223004BE17C /* CarpeDM.xcdatamodeld */ = {
+		7CCFB42819D573A3004BE17C /* CarpeDM.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7CCFB3FD19D57223004BE17C /* CarpeDM.xcdatamodel */,
+				7CCFB42919D573A3004BE17C /* CarpeDM.xcdatamodel */,
 			);
-			currentVersion = 7CCFB3FD19D57223004BE17C /* CarpeDM.xcdatamodel */;
+			currentVersion = 7CCFB42919D573A3004BE17C /* CarpeDM.xcdatamodel */;
 			path = CarpeDM.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

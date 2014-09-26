@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cEi-3u-QHK">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Authentication View Controller-->
+        <scene sceneID="jaq-Ra-Kl5">
+            <objects>
+                <viewController storyboardIdentifier="AuthenticationViewController" id="J7O-k9-Wl7" customClass="AuthenticationViewController" customModule="CarpeDM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IaT-cT-Hga"/>
+                        <viewControllerLayoutGuide type="bottom" id="rB9-KW-PPt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qod-9I-LKD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnO-a5-isp" customClass="AddAccountButton" customModule="CarpeDM">
+                                <rect key="frame" x="156" y="278" width="288" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="TmP-ga-eeh"/>
+                                    <constraint firstAttribute="width" constant="288" id="UkJ-M8-BIh"/>
+                                </constraints>
+                                <state key="normal" title="Add Account">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authenticate" destination="J7O-k9-Wl7" eventType="touchUpInside" id="JPl-jj-PLK"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iId-SV-gOA">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="E2F-vA-kO4"/>
+                                    <constraint firstAttribute="height" constant="20" id="E3h-7b-4Sd"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="GnO-a5-isp" secondAttribute="centerX" id="GMZ-bX-8Cj"/>
+                            <constraint firstAttribute="centerX" secondItem="iId-SV-gOA" secondAttribute="centerX" id="RVN-4M-IVG"/>
+                            <constraint firstAttribute="centerY" secondItem="iId-SV-gOA" secondAttribute="centerY" id="Tkg-IQ-u2q"/>
+                            <constraint firstAttribute="centerY" secondItem="GnO-a5-isp" secondAttribute="centerY" id="kgS-ht-eHg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="GnO-a5-isp" id="n4y-Zm-jIV"/>
+                        <outlet property="spinner" destination="iId-SV-gOA" id="BIN-zU-RUc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vIC-jd-I1j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515.625" y="-1256.25"/>
+        </scene>
+        <!--Messages-->
+        <scene sceneID="cBb-dc-yRk">
+            <objects>
+                <tableViewController id="W1g-Bx-tCn" customClass="MessagesTableViewController" customModule="CarpeDM" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ub0-Ne-EGF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0P9-DF-rlc">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0P9-DF-rlc" id="Bzy-oI-45Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="W1g-Bx-tCn" id="GfD-vF-oI0"/>
+                            <outlet property="delegate" destination="W1g-Bx-tCn" id="28C-le-Dih"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Messages" id="gpP-Yi-KVe">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="702-AC-Rjw">
+                            <connections>
+                                <action selector="logoutAction" destination="W1g-Bx-tCn" id="GCU-pL-WwJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Zg-3q-YqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-110.625" y="-147.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="M8y-d9-mPz">
+            <objects>
+                <navigationController id="cEi-3u-QHK" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CR3-tK-fpO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="W1g-Bx-tCn" kind="relationship" relationship="rootViewController" id="yWU-Tt-TCK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Phb-yQ-kWo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1648.125" y="-147.5"/>
+        </scene>
+    </scenes>
+</document>
