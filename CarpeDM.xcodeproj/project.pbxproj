@@ -18,7 +18,6 @@
 		7CCFB43A19D573A3004BE17C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CCFB43219D573A3004BE17C /* Info.plist */; };
 		7CCFB45019D574A7004BE17C /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB44E19D574A7004BE17C /* AuthenticationViewController.swift */; };
 		7CCFB45119D574A7004BE17C /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB44F19D574A7004BE17C /* MessagesTableViewController.swift */; };
-		7CCFB45319D574B3004BE17C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45219D574B3004BE17C /* User.swift */; };
 		7CCFB45519D574BC004BE17C /* CarpeDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45419D574BC004BE17C /* CarpeDM.swift */; };
 		7CCFB45719D574C8004BE17C /* AddAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB45619D574C8004BE17C /* AddAccountButton.swift */; };
 		7CCFB45819D57501004BE17C /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCFB44619D573A9004BE17C /* SwifteriOS.framework */; };
@@ -134,7 +133,6 @@
 		7CCFB43B19D573A9004BE17C /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		7CCFB44E19D574A7004BE17C /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		7CCFB44F19D574A7004BE17C /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
-		7CCFB45219D574B3004BE17C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7CCFB45419D574BC004BE17C /* CarpeDM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarpeDM.swift; sourceTree = "<group>"; };
 		7CCFB45619D574C8004BE17C /* AddAccountButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccountButton.swift; sourceTree = "<group>"; };
 		7CCFB45D19D57598004BE17C /* CarpeCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarpeCoreData.swift; sourceTree = "<group>"; };
@@ -283,7 +281,6 @@
 			isa = PBXGroup;
 			children = (
 				7CCFB45D19D57598004BE17C /* CarpeCoreData.swift */,
-				7CCFB45219D574B3004BE17C /* User.swift */,
 				7CCFB42819D573A3004BE17C /* CarpeDM.xcdatamodeld */,
 			);
 			path = Model;
@@ -621,7 +618,6 @@
 				7CCFB4C719D57E29004BE17C /* MagicalRecord.m in Sources */,
 				7CCFB4BA19D57E29004BE17C /* NSManagedObjectContext+MagicalObserving.m in Sources */,
 				7CCFB4BF19D57E29004BE17C /* NSPersistentStore+MagicalRecord.m in Sources */,
-				7CCFB45319D574B3004BE17C /* User.swift in Sources */,
 				7CCFB4B219D57E29004BE17C /* NSObject+MagicalDataImport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
