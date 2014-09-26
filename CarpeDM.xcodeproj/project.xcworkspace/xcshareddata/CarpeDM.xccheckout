@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>422693C1-2FA6-4AEC-8597-6B19290EE54C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CarpeDM</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C0B9B4436289711F8246A75703C0D9E18EBA83E</key>
+		<string>github.com:sl33p/carpe.git</string>
+		<key>72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD</key>
+		<string>github.com:championofblocks/Swifter.git</string>
+		<key>958932E9D08E4465709D54DB1E7CECF23B0F442E</key>
+		<string>github.com:magicalpanda/MagicalRecord.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CarpeDM.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C0B9B4436289711F8246A75703C0D9E18EBA83E</key>
+		<string>../..</string>
+		<key>72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD</key>
+		<string>../..Swifter/</string>
+		<key>958932E9D08E4465709D54DB1E7CECF23B0F442E</key>
+		<string>../..MagicalRecord/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:sl33p/carpe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C0B9B4436289711F8246A75703C0D9E18EBA83E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C0B9B4436289711F8246A75703C0D9E18EBA83E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CarpeDM</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>958932E9D08E4465709D54DB1E7CECF23B0F442E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MagicalRecord</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>72E8AEF8201D0465EAD5BE5475E77330EA7EC0CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swifter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
