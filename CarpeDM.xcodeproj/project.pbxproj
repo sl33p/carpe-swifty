@@ -49,6 +49,9 @@
 		7CCFB4C519D57E29004BE17C /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4A519D57E29004BE17C /* MagicalRecord+Setup.m */; };
 		7CCFB4C619D57E29004BE17C /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4A719D57E29004BE17C /* MagicalRecord+ShorthandSupport.m */; };
 		7CCFB4C719D57E29004BE17C /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4A919D57E29004BE17C /* MagicalRecord.m */; };
+		7CCFB4CA19D5831D004BE17C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4C919D5831D004BE17C /* Message.swift */; };
+		7CCFB4CC19D5831D004BE17C /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4CB19D5831D004BE17C /* Conversation.swift */; };
+		7CCFB4CE19D5831E004BE17C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFB4CD19D5831E004BE17C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +196,9 @@
 		7CCFB4AC19D57E29004BE17C /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthand.h; sourceTree = "<group>"; };
 		7CCFB4AD19D57E29004BE17C /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
 		7CCFB4C819D57E65004BE17C /* CarpeDM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CarpeDM-Bridging-Header.h"; path = "SupportingFiles/CarpeDM-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		7CCFB4C919D5831D004BE17C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7CCFB4CB19D5831D004BE17C /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		7CCFB4CD19D5831E004BE17C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +288,9 @@
 			children = (
 				7CCFB45D19D57598004BE17C /* CarpeCoreData.swift */,
 				7CCFB42819D573A3004BE17C /* CarpeDM.xcdatamodeld */,
+				7CCFB4CD19D5831E004BE17C /* User.swift */,
+				7CCFB4CB19D5831D004BE17C /* Conversation.swift */,
+				7CCFB4C919D5831D004BE17C /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -602,9 +611,12 @@
 				7CCFB45519D574BC004BE17C /* CarpeDM.swift in Sources */,
 				7CCFB45E19D57598004BE17C /* CarpeCoreData.swift in Sources */,
 				7CCFB4B819D57E29004BE17C /* NSManagedObject+MagicalRecord.m in Sources */,
+				7CCFB4CE19D5831E004BE17C /* User.swift in Sources */,
+				7CCFB4CC19D5831D004BE17C /* Conversation.swift in Sources */,
 				7CCFB4B619D57E29004BE17C /* NSManagedObject+MagicalDataImport.m in Sources */,
 				7CCFB4B419D57E29004BE17C /* NSString+MagicalDataImport.m in Sources */,
 				7CCFB4B019D57E29004BE17C /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				7CCFB4CA19D5831D004BE17C /* Message.swift in Sources */,
 				7CCFB4C119D57E29004BE17C /* MagicalRecord+Actions.m in Sources */,
 				7CCFB4B919D57E29004BE17C /* NSManagedObject+MagicalRequests.m in Sources */,
 				7CCFB4BC19D57E29004BE17C /* NSManagedObjectContext+MagicalSaves.m in Sources */,
