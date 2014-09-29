@@ -835,6 +835,7 @@
 				7CCFB41B19D57224004BE17C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CCFB41C19D57224004BE17C /* Build configuration list for PBXNativeTarget "CarpeDMTests" */ = {
 			isa = XCConfigurationList;
@@ -843,6 +844,7 @@
 				7CCFB41E19D57224004BE17C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
